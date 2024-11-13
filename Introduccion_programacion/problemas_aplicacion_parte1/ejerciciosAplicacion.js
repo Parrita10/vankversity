@@ -231,6 +231,60 @@ alert(`Horas: ${horas}, Minutos: ${minutos}, Segundos: ${segundosRestantes}`);
 /*Cree un programa que dados a, b y c, use la fórmula general para resolver la ecuación
 cuadrática correspondiente.*/
 
+//---------------------------------------------------------------------------------------------------------------------------------------
+//Realice un programa que calcule el índice de masa corporal de una persona.
+
+// Solicitar el peso de la persona en kilogramos
+let peso = parseFloat(prompt("Ingrese su peso en kilogramos:"));
+
+// Solicitar la altura de la persona en metros
+let altura = parseFloat(prompt("Ingrese su altura en metros:"));
+
+// Calcular el índice de masa corporal (IMC)
+let imc = peso / Math.pow(altura, 2);
+
+// Mostrar el resultado del IMC
+console.log(`Su Índice de Masa Corporal (IMC) es: ${imc.toFixed(2)}`);
+alert(`Su Índice de Masa Corporal (IMC) es: ${imc.toFixed(2)}`);
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+//Realice un programa que calcule el área de un trapecio isósceles.
+
+// Solicitar la base mayor del trapecio
+let baseMayor = parseFloat(prompt("Ingrese la base mayor del trapecio:"));
+
+// Solicitar la base menor del trapecio
+let baseMenor = parseFloat(prompt("Ingrese la base menor del trapecio:"));
+
+// Solicitar la altura del trapecio
+let alturaTrapecio = parseFloat(prompt("Ingrese la altura del trapecio:"));
+
+// Calcular el área del trapecio
+let areaTrapecio = ((baseMayor + baseMenor) * altura) / 2;
+
+// Mostrar el área del trapecio
+console.log(`El área del trapecio es: ${area}`);
+alert(`El área del trapecio es: ${area}`);
+
+//---------------------------------------------------------------------------------------------------------------------------------------
+//Realice un programa que calcule la distancia entre dos puntos en el espacio tridimensional.
+
+// Solicitar las coordenadas del primer punto
+let x1 = parseFloat(prompt("Ingrese la coordenada x1 del primer punto:"));
+let y1 = parseFloat(prompt("Ingrese la coordenada y1 del primer punto:"));
+let z1 = parseFloat(prompt("Ingrese la coordenada z1 del primer punto:"));
+
+// Solicitar las coordenadas del segundo punto
+let x2 = parseFloat(prompt("Ingrese la coordenada x2 del segundo punto:"));
+let y2 = parseFloat(prompt("Ingrese la coordenada y2 del segundo punto:"));
+let z2 = parseFloat(prompt("Ingrese la coordenada z2 del segundo punto:"));
+
+// Calcular la distancia usando la fórmula en tres dimensiones
+let distancia = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2));
+
+// Mostrar la distancia entre los dos puntos
+console.log(`La distancia entre los dos puntos es: ${distancia.toFixed(2)}`);
+alert(`La distancia entre los dos puntos es: ${distancia.toFixed(2)}`);
 
 
 
