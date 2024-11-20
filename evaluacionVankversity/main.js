@@ -6,15 +6,15 @@ Ejemplo:
 
 //Creamos la funcion 
 
-// function generarTablas(){
-//     for( let i = 1; i <= 5; i++){
-//         console.log(`Tabla del ${i}: `);
-//         for ( let j = 1; j <= 10; j++){
-//             console.log(`${i} x ${j} = ${i * j}`);
-//         }
-//         console.log(' ');
-//     }
-// }
+function generarTablas(){
+    for( let i = 1; i <= 5; i++){
+        console.log(`Tabla del ${i}: `);
+        for ( let j = 1; j <= 10; j++){
+            console.log(`${i} x ${j} = ${i * j}`);
+        }
+        console.log(' ');
+    }
+}
 
 // generarTablas();
 
@@ -25,16 +25,16 @@ cada celda (i,j) contienen la concatenación de los caracteres en la posición i
 
 //Creamos la funcion 
 
-// function miFuncion(cadena){
-//     for (let i = 0; i < cadena.length; i++){
-//         let fila = '';
-//         for (let j = 0; j < cadena.length; j++){
-//             fila += cadena[i] + cadena[j] + ' ';
-//         }
-//         console.log(fila.trim());
-//     }
-// }
-// miFuncion("xyz");
+function miFuncion(cadena){
+    for (let i = 0; i < cadena.length; i++){
+        let fila = '';
+        for (let j = 0; j < cadena.length; j++){
+            fila += cadena[i] + cadena[j] + ' ';
+        }
+        console.log(fila.trim());
+    }
+}
+miFuncion("xyz");
 
 //-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
 
