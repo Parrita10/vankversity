@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envío de Correos con Nodemailer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Enviar Correos con Nodemailer</h1>
+        <label for="destinatarios">Destinatarios (separados por coma):</label>
+        <input type="text" id="destinatarios" placeholder="ejemplo1@gmail.com, ejemplo2@gmail.com">
+        
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" placeholder="Asunto del correo">
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje aquí"></textarea>
+        <label for="cantidad">Cantidad de veces a enviar:</label>
+        <input type="number" id="cantidad" value="1" min="1">
+
+        <button id="enviarBtn">Enviar Correos</button>
+
+        <h2>Estado:</h2>
+        <p id="estado"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+.tarjeta-clima {
+    padding: 20px;
+    border-radius: 10px;
+    background: #3498db;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.tarjeta-clima img {
+    width: 80px;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.error {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
